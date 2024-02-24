@@ -1,0 +1,164 @@
+body {
+  background-color: rgb(7, 45, 54);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #070505;
+  text-align: center;
+  justify-content: center;
+}
+
+.color {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.red {
+  background-color: purple;
+  height: 4vh;
+  width: 2vw;
+  border-radius: 50%;
+}
+
+.blue {
+  background-color: rgb(190, 190, 13);
+  height: 4vh;
+  width: 2vw;
+  border-radius: 50%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #080808;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  height: 7vh;
+}
+
+ul {
+  display: flex;
+  text-align: end;
+  justify-content: space-around;
+  gap: 1rem;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+.all {
+  align-items: center;
+  justify-content: center;
+  background: url("https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-position: center;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  max-width: 98vw;
+  gap: 10px;
+  color: white;
+  overflow: scroll;
+}
+
+#result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 58vh;
+  color: #070505;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#user-value {
+  width: 25vw;
+  height: 3vh;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 10px;
+  color: #080707;
+  font-size: 15px;
+  text-align: center;
+  outline: none;
+}
+
+.icon {
+  height: 5vh;
+  max-width: 6vw;
+}
+
+#btn {
+  width: 4vw;
+  height: 7vh;
+  border-radius: 5px;
+  margin-left: 4px;
+  background-color: rgb(249, 251, 252);
+  outline: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  margin-top: 40px;
+}
+
+.cover {
+  background-color: gold;
+  height: 70vh;
+  width: 35vw;
+  margin-left: 34%;
+  border-radius: 20px;
+  border-top-right-radius: 25%;
+}
+
+.img {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  border-radius: 50%;
+}
+
+.images {
+  border-radius: 55%;
+  height: 28vh;
+  width: 15vw;
+  margin-left: 20%;
+}
+
+@media (max-width: 800px) {
+  nav {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .red,
+  .blue {
+    width: 8vw;
+  }
+
+  ul {
+    gap: 0.2rem;
+    font-size: 13px;
+  }
+
+  .cover {
+    width: 65vw;
+    margin-left: 17%;
+  }
+
+  #search {
+    width: 55vw;
+  }
+
+  #btn {
+    width: 25vw;
+  }
+}
